@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Akan Calender</title>
+    <link rel="stylesheet" href="akan.css">
+    <h1>Akan Calender</h1>
+  </head>
+  <body>
+<p>This is a web application that calculates the day of the<br>week in which the user was born by taking their birthday<br>and giving out their Ghanian names</p><br>
+
+<p>Ghanians are known for having different kind of names based<br>on the day of the week in which they were born.</p>
+
+<p3>Pleace fill in the form below so we can find out what your<br>name is!!</p3>
+<div class="form">
+<form>
+century:<br>
+<input type="number" value="" name="century" id="century" placeholder="E.g 2019 is 19">
+<br>
+Birth Year:<br>
+<input type="number" value="" name="birthyear" id="birthyear" placeholder="E.g 2019 is 20">
+<br>
+Birth Month:<br>
+<input type="number" value="" name="birthmonth" id="birthmonth" placeholder="E.g 9 or 11">
+<br>
+Date:<br>
+<input type="number" value="" name="birthdate" id="birthdate" placeholder="Date of birth">
+<br>
+<div class="check">
+<input type="radio" id="gender0" name="gender" value="male"> Male<br>
+<input type="radio" id="gender1" name="gender" value="female"> Female<br>
+</div>
+<input type="submit" value="Submit" onclick="input();">
+</form>
+<p id="name"></p>
+</div>
+<script src="akan.js"></script>
+  </body>
+</html>
