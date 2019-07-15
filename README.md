@@ -6,8 +6,10 @@
 ## Description
 This is a Ghanian calender that is able to pick the date of birth of the user and name the user based on the day of the week in which they were born.
 
+
 ## Screenshot
 <img src="https://github.com/Naomi-sigu/calender-akan/blob/master/screenshot%20akan.png" width="1000">
+
 
 ## Setup/Installation Requirements
 
