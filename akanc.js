@@ -16,12 +16,17 @@ function input() {
        var Mname = Males[DayOfBirth - 1];
        var day = DD[DayofBirth -1];
 
+       var Fname = Females[DayOfBirth -1];
+       var day = DD[DayOfBirth - 1];
+
+
+         if (gender0.checked === true) {
+
        document.getElementById('name').innerHTML= "You were born on" + day + "Your name is"+ Mname;
 
        }
-       else if (gender1.checked === "female") {
-           var Fname = Females[DayOfBirth -1];
-           var day = DD[DayOfBirth - 1];
+       else if (gender1.checked === true) {
+
             document.getElementById('name').innerHTML= "You were born on" + day + "Your name is"+ Fname;
        }
 
