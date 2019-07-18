@@ -10,6 +10,9 @@ function input() {
   var Males=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   var DD=["Sunday","Monday","Tuesday","wednesday","Thurday","Friday","Saturday"];
 
+  var century = parseInt(document.getElementById("century").value);
+  var year = parseInt(document.getElementById("year").value);
+
   var DayOfBirth=parseInt(((century/4)-2*century-1)+((5*birthYear/4))+((26*(birthmonth+1)/10))+birthdate)% 7;
 
   if (gender0.checked === "male") {
